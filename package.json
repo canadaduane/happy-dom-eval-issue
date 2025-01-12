@@ -1,0 +1,15 @@
+{
+  "name": "happy-dom-eval",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:bun": "bun run happy-test.js",
+    "dev:node": "node happy-test.js"
+  },
+  "dependencies": {
+    "happy-dom": "^16.5.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.16"
+  }
+}
